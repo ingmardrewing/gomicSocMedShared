@@ -39,6 +39,25 @@ const (
 
 	TLS_CERT_PATH = "TLS_CERT_PATH"
 	TLS_KEY_PATH  = "TLS_KEY_PATH"
+
+	GOMIC_SOCMED_PROD_URL  = "GOMIC_SOCMED_PROD_URL"
+	GOMIC_SOCMED_PROD_PORT = "GOMIC_SOCMED_PROD_PORT"
+
+	CURRENT_REST_VERSION = "0.1"
+	REST_BASE_PATH       = "gomic/socmed"
+
+	REST_PATH_ECHO = "/echo"
+
+	REST_PATH_PUBLISH_ALL = "/all/publish"
+
+	REST_PATH_PUBLISH_TWITTER = "/twitter/publish"
+
+	REST_PATH_PUBLISH_TUMBLER          = "/tumblr/publish"
+	REST_PATH_PUBLISH_TUMBLER_CALLBACK = "/tumblr/callback"
+
+	REST_PATH_PUBLISH_FACEBOOK          = "/facebook/publish"
+	REST_PATH_FACEBOOK_CALLBACK         = "/facebook/callback"
+	REST_PATH_FACEBOOK_GET_ACCESS_TOKEN = "/facebook/getAccessToken"
 )
 
 func Env(key string) string {
