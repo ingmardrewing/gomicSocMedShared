@@ -1,6 +1,10 @@
 package gomicSocMedShared
 
 type Content struct {
-	Link, ImgUrl, Title, TagsCsvString, Description string
-	Tags                                            []string
+	Link          string
+	ImgUrl        string
+	Title         string
+	TagsCsvString string
+	Description   string
+	Tags          []string
 }
