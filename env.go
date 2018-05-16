@@ -3,6 +3,8 @@ package gomicSocMedShared
 import "os"
 
 const (
+	PATH_TO_FILE_DB = "PATH_TO_FILE_DB"
+
 	GOMIC_PATH_TO_LOG = "GOMIC_PATH_TO_LOG"
 
 	GOMIC_BASIC_AUTH_PASS_HASH = "GOMIC_BASIC_AUTH_PASS_HASH"
